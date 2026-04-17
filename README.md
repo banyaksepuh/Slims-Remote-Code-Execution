@@ -45,8 +45,10 @@ menemukan lokasi instalasi SLiMS yang tidak standar
 
 Target endpoint:
 - /lib/watermark/phpThumb.php
+
 Tool akan mengirim parameter khusus untuk menguji eksekusi command:
 - blur|9 ;echo PYRE_VERIFIED;
+
 Jika response mengandung string tersebut target dianggap vulnerable terhadap command execution
 
 4. Payload Execution (Controlled)
